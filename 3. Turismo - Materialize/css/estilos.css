@@ -1,0 +1,101 @@
+.conteiner{
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(../img/fondo2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.imagen-logo{
+  max-height: 100px;
+}
+
+.menu a{
+ margin: 0px; 
+ text-align: center;
+ font-size: 0.8rem;
+}
+
+.slogan h4{
+font-size: 2rem;
+}
+
+.estilo-iconos{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.estilo-iconos img{
+width: 100%;
+}
+
+
+.fotos img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-central{
+min-height: 32rem;
+}
+
+.est-notas{
+  padding: 10px;
+}
+
+.est-notas img{
+  width: 100%;
+}
+
+.cabeza{
+  margin-bottom: 0px;
+}
+
+.titulo{
+  font-size: 2rem; 
+}
+
+.estilo-linea {
+  border-left: 3px solid teal;
+}
+
+.nota-imagen{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.texto-nota{
+  font-size: 0.8rem;
+  margin: 0px;
+}
+
+.comentarios{
+  border-radius: 5px;
+  border: 1px solid teal;
+  margin: 5px;
+  padding: 10px; 
+}
+
+.estilo-autor{
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+.img-central{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.fotos img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.slogan{
+  padding-top: 15rem;
+  text-align: right;
+}
+
+}
